@@ -1,0 +1,201 @@
+id,created,customer,plan,subject,body,category,difficulty
+T-001,2026-06-01,Bramley Wholesale,Growth,Can't log in,"Says my password is wrong but I haven't changed it. Tried twice.",Login,easy
+T-002,2026-06-01,Vestra Retail,Starter,locked out,"Locked out after 3 tries. Need access now, doing stock take today.",Login,easy
+T-003,2026-06-01,Norling Foods,Growth,MFA code not arriving,"The 6 digit code never comes through to my phone.",Login,easy
+T-004,2026-06-02,Kestrel Supplies,Enterprise,New starter can't access,"Added Marco last week but he still gets access denied.",Seats,medium
+T-005,2026-06-02,Hollis & Co,Starter,Stock numbers wrong,"System says 40 units of SKU 88213 but we counted 12 on the shelf.",StockDiscrepancy,medium
+T-006,2026-06-02,Arden Trading,Growth,Scanner won't pair,"Zebra scanner won't connect to the tablet since this morning.",Scanner,easy
+T-007,2026-06-02,Bramley Wholesale,Growth,Export stuck,"Tried to export the monthly stock report 3 times, spinner never stops.",Reports,easy
+T-008,2026-06-03,Pell Distribution,Enterprise,Xero sync failed,"Accounting sync has been failing since Tuesday. No error shown.",Integration,medium
+T-009,2026-06-03,Vestra Retail,Starter,Import rejected,"CSV import says row 41 invalid but row 41 looks fine to me.",DataImport,medium
+T-010,2026-06-03,Norling Foods,Growth,Invoice query,"We were charged for 12 seats but we only have 9 people.",Billing,medium
+T-011,2026-06-03,Marlow Group,Growth,How do I set reorder points,"Where do I set a minimum stock level so it warns me?",HowTo,easy
+T-012,2026-06-04,Kestrel Supplies,Enterprise,System very slow,"Loading the stock list takes 40 seconds since the update.",Performance,medium
+T-013,2026-06-04,Hollis & Co,Starter,Missing products,"About 200 products have disappeared from our catalogue overnight.",DataLoss,hard
+T-014,2026-06-04,Arden Trading,Growth,Add barcode field to reports,"Would be useful if the export included the barcode column.",FeatureRequest,easy
+T-015,2026-06-04,Tarn Retail,Starter,Thinking of cancelling,"We're evaluating alternatives, our renewal is in 6 weeks.",Cancellation,hard
+T-016,2026-06-05,Pell Distribution,Enterprise,Password reset loop,"Reset link takes me back to the login page every time.",Login,easy
+T-017,2026-06-05,Bramley Wholesale,Growth,How do I bulk edit prices,"Can I change prices for a whole category at once?",HowTo,easy
+T-018,2026-06-05,Norling Foods,Growth,Count mismatch again,"Third time this month the counts don't match after a delivery.",StockDiscrepancy,medium
+T-019,2026-06-05,Vestra Retail,Starter,Scanner beeps but nothing happens,"It scans and beeps but the item doesn't appear on screen.",Scanner,medium
+T-020,2026-06-08,Marlow Group,Growth,PDF report blank,"The stock valuation PDF downloads but every page is empty.",Reports,medium
+T-021,2026-06-08,Kestrel Supplies,Enterprise,Remove a user,"Sarah left the company, how do I remove her and free the seat?",Seats,easy
+T-022,2026-06-08,Arden Trading,Growth,QuickBooks connection broken,"Reconnected twice, still says authorisation expired.",Integration,medium
+T-023,2026-06-08,Hollis & Co,Starter,Import date format,"Import fails on the expiry date column, we use DD/MM/YYYY.",DataImport,easy
+T-024,2026-06-09,Tarn Retail,Starter,Invoice copy please,"Can you send me the invoice for May, accounts needs it.",Billing,easy
+T-025,2026-06-09,Pell Distribution,Enterprise,Slow on mobile,"The app takes ages to open on the warehouse tablets.",Performance,medium
+T-026,2026-06-09,Bramley Wholesale,Growth,Dark mode,"Any plans for a dark mode? The warehouse screens are bright.",FeatureRequest,easy
+T-027,2026-06-09,Norling Foods,Growth,Login after email change,"I changed my work email and now I can't get in at all.",Login,medium
+T-028,2026-06-10,Vestra Retail,Starter,Where is the audit log,"I need to see who changed a stock level last Thursday.",HowTo,medium
+T-029,2026-06-10,Marlow Group,Growth,Negative stock,"Shows minus 8 units for SKU 44120 which shouldn't be possible.",StockDiscrepancy,hard
+T-030,2026-06-10,Kestrel Supplies,Enterprise,Scanner battery drains,"Scanners die after 2 hours since the firmware update you suggested.",Scanner,hard
+T-031,2026-06-10,Arden Trading,Growth,Scheduled report not sent,"The Monday morning report hasn't arrived for 2 weeks.",Reports,medium
+T-032,2026-06-11,Hollis & Co,Starter,Upgrade seats,"We need 3 more seats, how much and how do I add them?",Seats,easy
+T-033,2026-06-11,Tarn Retail,Starter,Shopify orders not syncing,"Orders from Shopify stopped appearing yesterday afternoon.",Integration,medium
+T-034,2026-06-11,Pell Distribution,Enterprise,Import duplicated everything,"Ran the supplier import and now every product exists twice.",DataImport,hard
+T-035,2026-06-11,Bramley Wholesale,Growth,Charged twice,"Our card was charged twice in June, please refund one.",Billing,hard
+T-036,2026-06-12,Norling Foods,Growth,How to do a partial stock take,"Can I count just one aisle without doing the whole warehouse?",HowTo,easy
+T-037,2026-06-12,Vestra Retail,Starter,Everything is slow today,"Whole system crawling since about 10am.",Performance,easy
+T-038,2026-06-12,Marlow Group,Growth,Deleted supplier by accident,"I deleted a supplier and all their products vanished with it.",DataLoss,hard
+T-039,2026-06-12,Kestrel Supplies,Enterprise,Multi warehouse support,"Do you plan to support transfers between our 3 sites?",FeatureRequest,medium
+T-040,2026-06-15,Arden Trading,Growth,Downgrade plan,"Business is slower, we want to move to Starter next month.",Cancellation,hard
+T-041,2026-06-15,Hollis & Co,Starter,Forgot password,"Please reset my password, I've forgotten it.",Login,easy
+T-042,2026-06-15,Tarn Retail,Starter,SSO not working,"Our Google login stopped working for the whole team this morning.",Login,hard
+T-043,2026-06-15,Pell Distribution,Enterprise,How do I set user permissions,"Want warehouse staff to see stock but not costs.",HowTo,medium
+T-044,2026-06-16,Bramley Wholesale,Growth,Counts off after delivery,"Received 200 cases, system only added 180.",StockDiscrepancy,medium
+T-045,2026-06-16,Norling Foods,Growth,Scanner disconnects randomly,"Loses connection every few minutes in the back of the warehouse.",Scanner,medium
+T-046,2026-06-16,Vestra Retail,Starter,Excel export has no headers,"The CSV downloads without column names.",Reports,easy
+T-047,2026-06-16,Marlow Group,Growth,Seat count wrong,"Dashboard says 8 of 10 seats used but I only see 6 people.",Seats,medium
+T-048,2026-06-17,Kestrel Supplies,Enterprise,API integration 401,"Our custom integration is getting 401 errors since last night.",Integration,hard
+T-049,2026-06-17,Arden Trading,Growth,Import stops halfway,"Import of 5000 rows stops at about 2400 with no message.",DataImport,hard
+T-050,2026-06-17,Hollis & Co,Starter,VAT on invoice,"Invoice doesn't show our VAT number, we need it for filing.",Billing,medium
+T-051,2026-06-17,Tarn Retail,Starter,How do I print labels,"Trying to print shelf labels for new products.",HowTo,easy
+T-052,2026-06-18,Pell Distribution,Enterprise,Report times out,"Annual stock movement report times out every time.",Reports,medium
+T-053,2026-06-18,Bramley Wholesale,Growth,Stock take results not saved,"Finished a count, closed the app, results are gone.",DataLoss,hard
+T-054,2026-06-18,Norling Foods,Growth,Slow search,"Searching for a product takes 10 seconds or more.",Performance,easy
+T-055,2026-06-18,Vestra Retail,Starter,Bulk barcode upload,"It would help to upload barcodes in bulk rather than one by one.",FeatureRequest,easy
+T-056,2026-06-19,Marlow Group,Growth,Account locked,"Too many failed attempts, need unlocking please.",Login,easy
+T-057,2026-06-19,Kestrel Supplies,Enterprise,Sage sync duplicates,"Sage sync is creating duplicate invoices.",Integration,hard
+T-058,2026-06-19,Arden Trading,Growth,Can't add user,"Add user button is greyed out.",Seats,medium
+T-059,2026-06-19,Hollis & Co,Starter,Discrepancy report empty,"Ran the discrepancy report and it shows nothing even though counts are off.",StockDiscrepancy,hard
+T-060,2026-06-22,Tarn Retail,Starter,Scanner won't charge,"Cradle light is on but the scanner shows no charge.",Scanner,medium
+T-061,2026-06-22,Pell Distribution,Enterprise,Import mapping,"Which column headers does the product import expect?",DataImport,easy
+T-062,2026-06-22,Bramley Wholesale,Growth,Renewal price increase,"Why has our renewal quote gone up 22 percent?",Billing,hard
+T-063,2026-06-22,Norling Foods,Growth,How to archive products,"We have discontinued lines, how do I hide them without deleting?",HowTo,easy
+T-064,2026-06-23,Vestra Retail,Starter,Dashboard won't load,"Dashboard spins forever, rest of the app works.",Performance,medium
+T-065,2026-06-23,Marlow Group,Growth,Custom report builder,"Any chance of letting us build our own report layouts?",FeatureRequest,easy
+T-066,2026-06-23,Kestrel Supplies,Enterprise,Considering not renewing,"Support response times have been poor, leadership is asking questions.",Cancellation,hard
+T-067,2026-06-23,Arden Trading,Growth,Reset link expired,"The password reset link says expired, I clicked it straight away.",Login,easy
+T-068,2026-06-24,Hollis & Co,Starter,Stock adjustment not showing,"Made an adjustment yesterday, it isn't in the history.",StockDiscrepancy,hard
+T-069,2026-06-24,Tarn Retail,Starter,Scanner keyboard mode,"Scanner is typing into the wrong field.",Scanner,medium
+T-070,2026-06-24,Pell Distribution,Enterprise,Report shows old data,"The valuation report is showing last week's numbers.",Reports,hard
+T-071,2026-06-24,Bramley Wholesale,Growth,Transfer ownership,"Our admin left. How do we transfer the owner account?",Seats,medium
+T-072,2026-06-25,Norling Foods,Growth,Woocommerce plugin,"Do you have a WooCommerce integration?",Integration,easy
+T-073,2026-06-25,Vestra Retail,Starter,Import special characters,"Product names with accents come through as question marks.",DataImport,medium
+T-074,2026-06-25,Marlow Group,Growth,Payment method update,"Need to change the card on file.",Billing,easy
+T-075,2026-06-25,Kestrel Supplies,Enterprise,How to set up alerts,"Want an email when stock drops below reorder point.",HowTo,easy
+T-076,2026-06-26,Arden Trading,Growth,App crashes on tablet,"App closes itself when I open the count screen.",Performance,hard
+T-077,2026-06-26,Hollis & Co,Starter,Two factor for all users,"Can we enforce MFA across the whole account?",FeatureRequest,medium
+T-078,2026-06-26,Tarn Retail,Starter,Can't sign in on new phone,"New phone, MFA is tied to the old one.",Login,medium
+T-079,2026-06-26,Pell Distribution,Enterprise,Cycle count variance,"Variance is 6 percent this quarter, was 1 percent before.",StockDiscrepancy,hard
+T-080,2026-06-29,Bramley Wholesale,Growth,Scanner firmware,"Which firmware version should we be on?",Scanner,easy
+T-081,2026-06-29,Norling Foods,Growth,Report scheduling options,"Can reports go out weekly instead of daily?",Reports,easy
+T-082,2026-06-29,Vestra Retail,Starter,Seat billing question,"If I remove a user mid month do I get a credit?",Seats,medium
+T-083,2026-06-29,Marlow Group,Growth,Integration webhook failing,"Our webhook endpoint stopped receiving events on Friday.",Integration,hard
+T-084,2026-06-30,Kestrel Supplies,Enterprise,Import overwrote prices,"The import replaced all our prices with supplier costs.",DataLoss,hard
+T-085,2026-06-30,Arden Trading,Growth,Where do I find my invoices,"Can't find past invoices in the account area.",Billing,easy
+T-086,2026-06-30,Hollis & Co,Starter,How to merge duplicate products,"We have the same product twice, can I merge them?",HowTo,medium
+T-087,2026-06-30,Tarn Retail,Starter,Slow at month end,"Always slow on the last two days of the month.",Performance,medium
+T-088,2026-07-01,Pell Distribution,Enterprise,Barcode format support,"Do you support GS1 128 barcodes?",FeatureRequest,medium
+T-089,2026-07-01,Bramley Wholesale,Growth,Login page error 500,"Getting a 500 error on the login page.",Login,hard
+T-090,2026-07-01,Norling Foods,Growth,Shrinkage report,"Numbers keep drifting down, is something deducting stock?",StockDiscrepancy,hard
+T-091,2026-07-01,Vestra Retail,Starter,Scanner not in list,"Bought a Honeywell 1470g, it isn't in the supported devices list.",Scanner,medium
+T-092,2026-07-02,Marlow Group,Growth,Export to Google Sheets,"Can reports go straight to Sheets?",Reports,easy
+T-093,2026-07-02,Kestrel Supplies,Enterprise,Bulk add 40 users,"Onboarding a new site, need to add 40 users at once.",Seats,medium
+T-094,2026-07-02,Arden Trading,Growth,Xero tax codes wrong,"Sync is applying the wrong tax code to purchases.",Integration,hard
+T-095,2026-07-02,Hollis & Co,Starter,Import template,"Where can I download the import template?",DataImport,easy
+T-096,2026-07-03,Tarn Retail,Starter,Refund request,"We were billed after cancelling the trial.",Billing,hard
+T-097,2026-07-03,Pell Distribution,Enterprise,How to use kits,"How do bundles or kits work for assembled products?",HowTo,medium
+T-098,2026-07-03,Bramley Wholesale,Growth,Timeouts on save,"Saving a product times out about half the time.",Performance,hard
+T-099,2026-07-03,Norling Foods,Growth,Offline mode,"Warehouse wifi is bad, can the app work offline?",FeatureRequest,medium
+T-100,2026-07-06,Vestra Retail,Starter,No login email,"Never received the welcome email to set my password.",Login,easy
+T-101,2026-07-06,Marlow Group,Growth,Stock in two places,"Same SKU shows different quantities in two screens.",StockDiscrepancy,hard
+T-102,2026-07-06,Kestrel Supplies,Enterprise,Scanner setup guide,"Is there a guide for setting up new scanners?",Scanner,easy
+T-103,2026-07-06,Arden Trading,Growth,Report column order,"Can I reorder the columns in the stock report?",Reports,easy
+T-104,2026-07-07,Hollis & Co,Starter,Seat limit reached,"Says seat limit reached but we have 2 free.",Seats,medium
+T-105,2026-07-07,Tarn Retail,Starter,Zapier connection,"Do you work with Zapier?",Integration,easy
+T-106,2026-07-07,Pell Distribution,Enterprise,Import validation errors,"Getting 300 validation errors and no explanation of which rows.",DataImport,hard
+T-107,2026-07-07,Bramley Wholesale,Growth,Annual billing switch,"Can we move from monthly to annual billing?",Billing,medium
+T-108,2026-07-08,Norling Foods,Growth,How to record damages,"How do I write off damaged stock properly?",HowTo,medium
+T-109,2026-07-08,Vestra Retail,Starter,Slow after update,"Everything got slower after the July release.",Performance,medium
+T-110,2026-07-08,Marlow Group,Growth,Serial number tracking,"Do you support serial numbers per unit?",FeatureRequest,medium
+T-111,2026-07-08,Kestrel Supplies,Enterprise,Not renewing,"We have decided not to renew in September.",Cancellation,hard
+T-112,2026-07-09,Arden Trading,Growth,Password policy,"Can we enforce a stronger password policy?",Login,medium
+T-113,2026-07-09,Hollis & Co,Starter,Counted twice problem,"Two people counted the same aisle and it doubled the stock.",StockDiscrepancy,hard
+T-114,2026-07-09,Tarn Retail,Starter,Scanner Bluetooth,"Which Bluetooth mode should the scanner be in?",Scanner,easy
+T-115,2026-07-09,Pell Distribution,Enterprise,Report permissions,"Warehouse staff can see the cost report, they shouldn't.",Reports,hard
+T-116,2026-07-10,Bramley Wholesale,Growth,Deactivate vs delete user,"What's the difference between deactivating and deleting a user?",Seats,easy
+T-117,2026-07-10,Norling Foods,Growth,Sync stopped silently,"Accounting sync says connected but nothing has synced in 5 days.",Integration,hard
+T-118,2026-07-10,Vestra Retail,Starter,Import wrong column,"Quantities went into the price column.",DataImport,hard
+T-119,2026-07-10,Marlow Group,Growth,Proforma invoice,"Can we get a proforma before payment?",Billing,medium
+T-120,2026-07-13,Kestrel Supplies,Enterprise,How to close a stock take,"What's the correct way to finalise a count?",HowTo,medium
+T-121,2026-07-13,Arden Trading,Growth,Everything froze,"App froze during a count and we lost 40 minutes of work.",DataLoss,hard
+T-122,2026-07-13,Hollis & Co,Starter,Mobile app battery,"App drains the tablet battery very fast.",Performance,medium
+T-123,2026-07-13,Tarn Retail,Starter,Supplier portal,"Would be great if suppliers could update their own catalogues.",FeatureRequest,easy
+T-124,2026-07-14,Pell Distribution,Enterprise,SSO certificate expired,"Our SAML certificate expired, how do we update it?",Login,hard
+T-125,2026-07-14,Bramley Wholesale,Growth,Missing units after transfer,"Transferred 50 units between sites, only 35 arrived.",StockDiscrepancy,hard
+T-126,2026-07-14,Norling Foods,Growth,Scanner in cold store,"Scanners stop working in the freezer section.",Scanner,hard
+T-127,2026-07-14,Vestra Retail,Starter,Report footer,"Can we add our logo to report exports?",Reports,easy
+T-128,2026-07-15,Marlow Group,Growth,User can't see anything,"New user logs in but sees an empty dashboard.",Seats,medium
+T-129,2026-07-15,Kestrel Supplies,Enterprise,Rate limit on API,"We are hitting rate limits on the API, can it be raised?",Integration,medium
+T-130,2026-07-15,Arden Trading,Growth,Import stuck processing,"Import has said processing for 3 hours.",DataImport,medium
+T-131,2026-07-15,Hollis & Co,Starter,Wrong currency,"Invoice is in USD, we are in the EU and pay in EUR.",Billing,medium
+T-132,2026-07-16,Tarn Retail,Starter,How do I add a location,"Opening a second stockroom, how do I set it up?",HowTo,easy
+T-133,2026-07-16,Pell Distribution,Enterprise,Search index stale,"New products don't appear in search for about an hour.",Performance,hard
+T-134,2026-07-16,Bramley Wholesale,Growth,Purchase order module,"Do you have anything for raising purchase orders?",FeatureRequest,medium
+T-135,2026-07-16,Norling Foods,Growth,MFA reset for user,"Employee lost their phone, need their MFA reset.",Login,medium
+T-136,2026-07-17,Vestra Retail,Starter,Counts reset to zero,"Half our SKUs show zero this morning and they weren't yesterday.",DataLoss,hard
+T-137,2026-07-17,Marlow Group,Growth,Scanner double scanning,"Every scan registers twice.",Scanner,medium
+T-138,2026-07-17,Kestrel Supplies,Enterprise,Report to FTP,"Can scheduled reports be delivered to our FTP?",Reports,medium
+T-139,2026-07-17,Arden Trading,Growth,Seat pricing tiers,"Is there a discount above 25 seats?",Seats,medium
+T-140,2026-07-20,Hollis & Co,Starter,Which integrations exist,"What accounting systems do you connect to?",Integration,easy
+T-141,2026-07-20,Tarn Retail,Starter,Import file size,"Is there a limit on import file size?",DataImport,easy
+T-142,2026-07-20,Pell Distribution,Enterprise,Billing contact change,"Invoices should go to accounts@ not to me.",Billing,easy
+T-143,2026-07-20,Bramley Wholesale,Growth,How to correct a bad count,"We finalised a count with wrong numbers, can it be undone?",HowTo,hard
+T-144,2026-07-21,Norling Foods,Growth,Slow report generation,"Reports take 5 minutes that used to take 30 seconds.",Performance,medium
+T-145,2026-07-21,Vestra Retail,Starter,Barcode scanning from photos,"Could the phone camera scan barcodes instead of a scanner?",FeatureRequest,medium
+T-146,2026-07-21,Marlow Group,Growth,Downgrading seats,"We want to drop from 15 to 10 seats at renewal.",Cancellation,hard
+T-147,2026-07-21,Kestrel Supplies,Enterprise,Login redirect loop,"After SSO login it bounces back to the sign in screen.",Login,hard
+T-148,2026-07-22,Arden Trading,Growth,Stock vs sales mismatch,"Sales say we sold 300, stock only dropped by 240.",StockDiscrepancy,hard
+T-149,2026-07-22,Hollis & Co,Starter,Scanner won't wake,"Scanner needs a hard reset every morning.",Scanner,medium
+T-150,2026-07-22,Tarn Retail,Starter,Export limit,"Export only gives me the first 1000 rows.",Reports,medium
+T-151,2026-07-22,Pell Distribution,Enterprise,Role for auditors,"Need a read only role for external auditors.",Seats,medium
+T-152,2026-07-23,Bramley Wholesale,Growth,Sync direction,"Does the accounting sync go both ways or only out?",Integration,easy
+T-153,2026-07-23,Norling Foods,Growth,Import updates or adds,"Will the import update existing products or duplicate them?",DataImport,medium
+T-154,2026-07-23,Vestra Retail,Starter,Late payment fee,"We got a late fee but the invoice went to the wrong address.",Billing,hard
+T-155,2026-07-23,Marlow Group,Growth,How to handle returns,"What's the right process for customer returns?",HowTo,medium
+T-156,2026-07-24,Kestrel Supplies,Enterprise,Peak hour slowness,"Between 8 and 9am the system is unusable.",Performance,hard
+T-157,2026-07-24,Arden Trading,Growth,Multi currency,"Do you support multiple currencies?",FeatureRequest,medium
+T-158,2026-07-24,Hollis & Co,Starter,Email not recognised,"Says my email isn't registered but I use it every day.",Login,medium
+T-159,2026-07-24,Tarn Retail,Starter,Half the stock gone,"Around 60 percent of our stock records are missing today.",DataLoss,hard
+T-160,2026-07-27,Pell Distribution,Enterprise,Scanner MDM,"Can scanners be managed through our MDM?",Scanner,hard
+T-161,2026-07-27,Bramley Wholesale,Growth,Report by supplier,"Can I run a stock report grouped by supplier?",Reports,easy
+T-162,2026-07-27,Norling Foods,Growth,Seat left but blocked,"Removed a user but the seat hasn't freed up.",Seats,medium
+T-163,2026-07-27,Vestra Retail,Starter,Shopify duplicate orders,"Shopify orders are coming through twice.",Integration,hard
+T-164,2026-07-28,Marlow Group,Growth,Import ignores blanks,"Blank cells in the import wiped existing values.",DataImport,hard
+T-165,2026-07-28,Kestrel Supplies,Enterprise,PO number on invoice,"Our finance team needs our PO number printed on invoices.",Billing,medium
+T-166,2026-07-28,Arden Trading,Growth,How to train new staff,"Do you have training material for new warehouse staff?",HowTo,easy
+T-167,2026-07-28,Hollis & Co,Starter,Slow login,"Login takes about 30 seconds before the dashboard appears.",Performance,medium
+T-168,2026-07-29,Tarn Retail,Starter,Barcode label sizes,"Can we choose different label sizes when printing?",FeatureRequest,easy
+T-169,2026-07-29,Pell Distribution,Enterprise,Session expires too fast,"Users get logged out every 15 minutes.",Login,medium
+T-170,2026-07-29,Bramley Wholesale,Growth,Adjustment history missing,"Adjustments from before June aren't in the history any more.",DataLoss,hard
+T-171,2026-07-29,Norling Foods,Growth,Scanner keyboard language,"Scanner types the wrong characters, we use a Spanish keyboard.",Scanner,hard
+T-172,2026-07-30,Vestra Retail,Starter,Report totals wrong,"The total row doesn't match the sum of the lines.",Reports,hard
+T-173,2026-07-30,Marlow Group,Growth,Guest access,"Can we give a temporary login to a contractor?",Seats,medium
+T-174,2026-07-30,Kestrel Supplies,Enterprise,Sync conflicts,"Both systems edited the same record and now they disagree.",Integration,hard
+T-175,2026-07-30,Arden Trading,Growth,Import from old system,"We're migrating from another tool, can you help with the import?",DataImport,medium
+T-176,2026-07-31,Hollis & Co,Starter,Invoice address wrong,"Invoice shows our old office address.",Billing,easy
+T-177,2026-07-31,Tarn Retail,Starter,How to bulk delete,"Need to remove 400 discontinued products.",HowTo,medium
+T-178,2026-07-31,Pell Distribution,Enterprise,Latency from second site,"Our Warsaw site says the app is much slower than here.",Performance,hard
+T-179,2026-07-31,Bramley Wholesale,Growth,Forecasting,"Any plans for demand forecasting?",FeatureRequest,medium
+T-180,2026-07-31,Norling Foods,Growth,Considering competitor,"A competitor has offered us a migration deal.",Cancellation,hard
+T-181,2026-08-03,Vestra Retail,Starter,Can't log in and stock is wrong,"Can't get in since this morning and yesterday the counts were also wrong.",Login,hard
+T-182,2026-08-03,Marlow Group,Growth,Urgent stock take today,"Scanner is dead and we have auditors here in an hour.",Scanner,hard
+T-183,2026-08-03,Kestrel Supplies,Enterprise,This is unacceptable,"Third time this month something is broken. Who is accountable?",Other,hard
+T-184,2026-08-03,Arden Trading,Growth,Report and export both failing,"Neither the report nor the export works today.",Reports,hard
+T-185,2026-08-04,Hollis & Co,Starter,Question about your roadmap,"Where can I see what features are coming?",Other,easy
+T-186,2026-08-04,Tarn Retail,Starter,Not sure what's wrong,"Something isn't right with the numbers, hard to explain.",Other,hard
+T-187,2026-08-04,Pell Distribution,Enterprise,Security questionnaire,"Our procurement team needs you to complete a security questionnaire.",Other,medium
+T-188,2026-08-04,Bramley Wholesale,Growth,Data processing agreement,"We need a signed DPA for our compliance file.",Other,medium
+T-189,2026-08-05,Norling Foods,Growth,Who is our account manager,"We don't know who to contact about our account.",Other,easy
+T-190,2026-08-05,Vestra Retail,Starter,Referral,"We recommended you to a partner company, is there a referral scheme?",Other,easy
+T-191,2026-08-05,Marlow Group,Growth,Status page,"Is there a status page to check for outages?",Other,easy
+T-192,2026-08-05,Kestrel Supplies,Enterprise,Uptime commitment,"What SLA do we have on the Enterprise plan?",Other,medium
+T-193,2026-08-06,Arden Trading,Growth,Feedback on new UI,"The new layout is harder to use for our team.",Other,medium
+T-194,2026-08-06,Hollis & Co,Starter,Training webinar,"Do you run webinars for new customers?",Other,easy
+T-195,2026-08-06,Tarn Retail,Starter,Change company name,"We rebranded, how do we update the company name?",Other,easy
+T-196,2026-08-06,Pell Distribution,Enterprise,GDPR data export,"A former employee has requested their data.",Other,hard
+T-197,2026-08-07,Bramley Wholesale,Growth,Password and seats,"Need a password reset and also want to add two seats.",Login,hard
+T-198,2026-08-07,Norling Foods,Growth,Angry about slow replies,"Nobody answered my ticket from Tuesday. Just need my export fixed.",Reports,hard
+T-199,2026-08-07,Vestra Retail,Starter,Import and scanner both broken,"Import failed and now the scanner won't pair either.",DataImport,hard
+T-200,2026-08-07,Marlow Group,Growth,Everything is broken,"Nothing works. Please call me.",Other,hard
